@@ -69,15 +69,6 @@ app.put("/students/:id", async (req, res) => {
 });
 
 
-let students = [
-    {
-        id: 1,
-        name: "Juan Dela Cruz",
-        course: 'BSIT',
-        age: 20,
-    }
-]
-
 
 app.listen(5000, () => {
     console.log("Server running on port 5000")
